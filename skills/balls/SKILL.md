@@ -1,3 +1,9 @@
+---
+name: balls
+description: Decomposed reasoning with explicit confidence scoring
+trigger: /balls
+---
+
 # Balls Mode - Decomposed Reasoning with Confidence Scoring
 
 When the user invokes `/balls` followed by a question or problem, activate this structured reasoning protocol.

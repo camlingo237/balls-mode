@@ -1,5 +1,7 @@
 # Balls Mode
 
+> Credit: Based on the original concept by [@typememetics](https://x.com/typememetics/status/2012821469009465487)
+
 Decomposed reasoning with explicit confidence scoring for Claude Code.
 
 ## What is this?
@@ -12,11 +14,14 @@ Standard prompting gives you an answer. Balls Mode gives you:
 ## Installation
 
 ```bash
-# Clone into your .claude directory
-git clone https://github.com/your-username/balls-mode ~/.claude/skills/balls-mode
+# Add the marketplace
+/plugin marketplace add gbasin/balls-mode
+
+# Install the plugin
+/plugin install balls-mode
 ```
 
-Or add to your project's `.claude/skills/` directory.
+Or manually copy `skills/balls/SKILL.md` to your project's `skills/` directory.
 
 ## Usage
 
