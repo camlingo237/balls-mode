@@ -21,7 +21,7 @@ Standard prompting gives you an answer. Balls Mode gives you:
 /plugin install balls-mode
 ```
 
-Or manually copy `skills/balls/SKILL.md` to your project's `skills/` directory.
+Or manually copy `plugins/balls-mode/skills/balls/SKILL.md` to your project's `skills/` directory.
 
 ## Usage
 

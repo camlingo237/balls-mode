@@ -12,7 +12,7 @@
       "name": "balls-mode",
       "description": "Decomposed reasoning with explicit confidence scoring. Break complex questions into verifiable units, score each independently, and synthesize with uncertainty tracking.",
       "version": "1.0.0",
-      "source": ".",
+      "source": "./plugins/balls-mode",
       "category": "productivity"
     }
   ]
