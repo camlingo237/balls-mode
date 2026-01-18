@@ -2,7 +2,7 @@
 
 > Credit: Based on the original concept by [@typememetics](https://x.com/typememetics/status/2012821469009465487)
 
-Decomposed reasoning with explicit confidence scoring for Claude Code.
+Decomposed reasoning with explicit confidence scoring for AI coding assistants.
 
 ## What is this?
 
@@ -13,15 +13,25 @@ Standard prompting gives you an answer. Balls Mode gives you:
 
 ## Installation
 
-```bash
-# Add the marketplace
-/plugin marketplace add gbasin/balls-mode
+### Claude Code
 
-# Install the plugin
+```bash
+/plugin marketplace add gbasin/balls-mode
 /plugin install balls-mode
 ```
 
-Or manually copy `plugins/balls-mode/skills/balls/SKILL.md` to your project's `skills/` directory.
+### Codex
+
+Copy the skill file to your Codex skills directory:
+
+```bash
+mkdir -p ~/.codex/skills/balls-mode
+cp plugins/balls-mode/skills/balls/SKILL.md ~/.codex/skills/balls-mode/
+```
+
+### Manual
+
+Copy `plugins/balls-mode/skills/balls/SKILL.md` to your tool's skills directory.
 
 ## Usage
 
