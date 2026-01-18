@@ -1,5 +1,4 @@
 {
-  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "balls-mode",
   "version": "1.0.0",
   "description": "Decomposed reasoning with explicit confidence scoring for Claude Code",
